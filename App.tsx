@@ -10,8 +10,8 @@ export default function App() {
     <View style={{ flex: 1 }} {...events}>
       <Canvas>
         <OrbitControls
-          minDistance={5}
-          maxDistance={10}
+          minZoom={5}
+          maxZoom={10}
           enablePan={false}
         />
 
