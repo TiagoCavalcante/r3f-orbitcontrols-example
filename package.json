@@ -5,12 +5,13 @@
     "start": "expo start"
   },
   "dependencies": {
-    "expo": "~48.0.11",
-    "r3f-native-orbitcontrols": "^1.0.6",
-    "typescript": "^5.0.4"
+    "expo": "~50.0.7",
+    "r3f-native-orbitcontrols": "^1.0.10",
+    "typescript": "^5.3.3",
+    "react-native-web": "~0.19.6"
   },
   "devDependencies": {
-    "@babel/core": "^7.21.4"
+    "@babel/core": "^7.23.9"
   },
   "babel": {
     "presets": [
