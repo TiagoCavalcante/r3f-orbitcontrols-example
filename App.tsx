@@ -2,6 +2,7 @@ import { Canvas, MeshProps, useFrame } from "@react-three/fiber/native"
 import useControls from "r3f-native-orbitcontrols"
 import { useRef, useState } from "react"
 import { View } from "react-native"
+import { Mesh } from "three"
 
 export default function App() {
   const [OrbitControls, events] = useControls()
@@ -25,7 +26,7 @@ export default function App() {
 }
 
 function Box(props: MeshProps) {
-  const mesh = useRef<MeshProps>()
+  const mesh = useRef<Mesh>()
 
   const [active, setActive] = useState(false)
 
